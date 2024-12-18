@@ -1,14 +1,23 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+# Ignore Folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.vs/
+
+# Ignore Files
+*.log
+*.tmp
+*.lock
+*.uasset.tmp
+*.umap.tmp
+
+# Ignore User Settings
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+
+# Git LFS
+*.uasset
+*.umap
